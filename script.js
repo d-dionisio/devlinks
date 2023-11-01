@@ -1,5 +1,6 @@
-const html = document.documentElement;
 
 function toogleMode() {
+    const html = document.documentElement;
+
     html.classList.toggle('light');
 }
